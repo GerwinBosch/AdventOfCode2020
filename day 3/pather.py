@@ -1,7 +1,3 @@
-right = 0
-treeCounter = 0
-firstTask = False
-
 def goSki(stepsizeLeft, stepsizeDown) :
     right = 0
     treeCounter = 0
