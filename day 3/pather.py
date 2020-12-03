@@ -20,7 +20,4 @@ def goSki(stepsizeLeft, stepsizeDown) :
 
 firstResult = goSki(3,1)
 print("First task:", firstResult)
-
-
-
 print("Second task:", goSki(1,1) * firstResult * goSki(5,1) * goSki(7,1) * goSki(1,2))
