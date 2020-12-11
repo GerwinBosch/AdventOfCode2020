@@ -1,5 +1,6 @@
 {
     "python.formatting.provider": "autopep8",
     "python.linting.enabled": true,
-    "python.linting.pylintEnabled": true
+    "python.linting.pylintEnabled": true,
+    "python.pythonPath": "C:\\Users\\Gerwi\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"
 }
