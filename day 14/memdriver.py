@@ -57,8 +57,6 @@ with open("./memInstruction.txt") as fp:
                                     assignment[charIdx], list(addresses)))
                 elif(mask[charIdx == "1"]):
                     addresses = list(map(lambda address: address+"1", list(addresses)))
-                else:
-                    print("YOU FUCKED UP")
             addresses = list(addresses)
             for address in addresses:
                 memory[int(address,2)]= value
