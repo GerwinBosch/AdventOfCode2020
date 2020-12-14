@@ -2,9 +2,6 @@ from functools import reduce
 
 floorplan = []
 
-with open("./seats.txt") as fp:
-    for line in fp:
-        floorplan.append(line.rstrip())
 
 
 def freeSeats(rowIdx, columnIdx,floorSeats):
